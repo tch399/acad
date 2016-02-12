@@ -28,7 +28,7 @@ li {
 }
 
 .jumbotron {
-  background: url('/Users/Tom/tree/code_academy/rails-tutorial/htmlproject/img/homepage-spash.jpg') no-repeat center center;
+  background: url('img/homepage-spash.jpg') no-repeat center center;
   background-size: cover;
   color: white;
 }
