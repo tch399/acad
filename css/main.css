@@ -28,7 +28,7 @@ li {
 }
 
 .jumbotron {
-  background: url('img/homepage-spash.jpg') no-repeat center center;
+  background: url('../img/homepage-spash.jpg') no-repeat center center;
   background-size: cover;
   color: white;
 }
