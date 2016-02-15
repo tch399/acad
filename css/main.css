@@ -26,6 +26,7 @@ header li, footer li {
   margin-bottom: 10px;
 }
 
+
 .about-text {
   text-align: center;
 }
@@ -65,6 +66,8 @@ footer {
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
+
+
   .navigation {
     float: right;
     padding-top: 10px;
@@ -78,6 +81,13 @@ footer {
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+
+
+  .project-description {
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
 
 }
 
