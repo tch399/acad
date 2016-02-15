@@ -1,24 +1,11 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Lato', sans-sjerif;
-  font-weight: 300;
-}
 
-/*********** HEADER ************/
 
-header {
-  background-color: #D8E1E7;
-  color: white;
-  text-align: center;
-}
-
-header ul, footer ul {
+ul {
   padding-left: 0;
   display: inline-block;
 }
 
-header li, footer li {
+li {
   display: inline-block;
   color: white;
   padding-right: 15px;
@@ -26,20 +13,62 @@ header li, footer li {
   margin-bottom: 10px;
 }
 
-.about-text {
-  text-align: center;
+.jumbotron {
+  background: url('../img/contact-splash.jpg') no-repeat center center;
 }
 
-.jumbotron {
-  background: url('../img/homepage-spash.jpg') no-repeat center center;
-  background-size: cover;
+.main button {
+  background-color: #F28C83;
+  color: white;
+  border-radius: 0;
+  border: 0
+}
+
+.main button:hover {
+  background-color: #F3978F;
   color: white;
 }
 
-
-footer {
-  padding-left: 15px;
+.main span {
+  padding-right: 10px;
 }
+
+.inner-addon {
+  position: relative;
+}
+
+i {
+  position: absolute;
+}
+
+.addon i {
+  left: 15px;
+  top: 10px;
+  font-size: 24px;
+  color: #e5e5e5;
+  opacity: 0.5;
+}
+
+.addon input {
+  padding-left: 45px;
+}
+
+.addon input:focus {
+  border-bottom: 5px solid #F28C83;
+  border-radius: 0;
+}
+
+
+
+.addon textarea {
+  padding-left: 45px;
+}
+
+.addon textarea:focus {
+  border-bottom: 5px solid #F28C83;
+  border-radius: 0;
+}
+
 
 
 
@@ -65,27 +94,17 @@ footer {
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
-  .navigation {
-    float: right;
-    padding-top: 10px;
-  }
-
-  .name {
-    float: left;
-  }
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-
-
-
 
 
 }
